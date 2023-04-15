@@ -1,0 +1,9 @@
+.notFound {
+    width: 300px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

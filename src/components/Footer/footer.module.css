@@ -1,0 +1,47 @@
+footer {
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns_header {
+  display: flex;
+  gap: 30px;
+}
+
+.nav {
+  display: flex;
+  gap: 100px;
+}
+
+.navlink {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+.class {
+  color: green;
+}
+
+.cart_icon {
+  width: 30px;
+}
+
+.ikon {
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+

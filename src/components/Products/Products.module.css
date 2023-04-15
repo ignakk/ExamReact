@@ -1,0 +1,55 @@
+.tovar{
+    max-width: 1300px;
+    margin: 149px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img_tovar_one{
+    height: 507px;
+}
+.img_tovar_one img{
+    height: 400px;
+    object-fit: cover;
+}
+.content_tovar{
+    text-align: start;
+    margin: 10px;
+}
+
+.content_tovar h1{
+font-weight: 700;
+font-size: 40px;
+color: #000;
+}
+
+.content_tovar h2{
+margin: 45px 0px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #000;
+}
+
+.content_tovar p{
+word-break: break-all;
+margin-top: 42px;
+max-width: 887px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+font-size: 18px;
+color: #000;
+}
+
+.content_tovar button{
+cursor: pointer;
+border: none;
+background: #ED7C35;
+border-radius: 5px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #FFFFFF;
+padding: 15px 54px;
+}
