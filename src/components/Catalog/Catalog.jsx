@@ -111,11 +111,12 @@ const Catalog = () => {
                     {console.log('dataa: ', {categoriesData})}
                     {
                         categoriesData.data && !categoriesData.isLoading ?
-                            <select name="" id="" value={categoriesData.data.find(item => item.id === Number(tagId)).name} onChange={(e) => searchByCategory(e.target.value)} className={style.cat_input}>
+                            <select name="" id="" value={categoriesData.data.find(item => item.id === Number(tagId)).tag} onChange={(e) => searchByCategory(e.target.value)} className={style.cat_input}>
                             <option value={0}>Все</option>
                             {
                                 categoriesData.data.map((category) => {
-                                    return <option key={category.id} value={category.name}>{category.name}</option>
+                                    console.log(category)
+                                    return <option key={category.id} value={category.tag}>{category.tag}</option>
                                 })
                             }
                             </select>
