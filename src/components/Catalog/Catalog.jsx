@@ -89,7 +89,7 @@ const Catalog = () => {
     }
 
     const searchByCategory = (tag) => {
-        const id = categoriesData.data.find((item) => item.name === tag)?.id || 0;
+        const id = categoriesData.data.find((item) => item.tag === tag)?.id || 0;
         localStorage.setItem('tagId', JSON.stringify(id));
         fetchServices(id);
     }
@@ -115,7 +115,6 @@ const Catalog = () => {
                             <option value={0}>Все</option>
                             {
                                 categoriesData.data.map((category) => {
-                                    console.log(category)
                                     return <option key={category.id} value={category.tag}>{category.tag}</option>
                                 })
                             }
